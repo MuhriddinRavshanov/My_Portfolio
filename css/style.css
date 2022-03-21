@@ -21,3 +21,25 @@ a {
     margin: 0 auto;
 }
 
+/* ******************nav start********************** */
+
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-list {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav .nav-list .nav-item {
+    margin-left: 20px;
+}
+
+.nav .nav-title {
+    
+}
