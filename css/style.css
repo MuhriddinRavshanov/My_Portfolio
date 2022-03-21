@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 
-ul ol {
+ul, ol {
     list-style: none;
 }
 
@@ -37,9 +37,30 @@ a {
 }
 
 .nav .nav-list .nav-item {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .nav .nav-title {
-    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.nav .nav-list .nav-item a {
+    font-style: normal;
+    font-weight: 550;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #151517;
+    transition: 0.3s;
+}
+
+.nav .nav-list .nav-item .active {
+    color: #EEBF63;
+}
+
+.nav .nav-list .nav-item a:hover {
+    color: #EEBF63;
 }
