@@ -15,3 +15,9 @@ ul ol {
 a {
     text-decoration: none;
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
