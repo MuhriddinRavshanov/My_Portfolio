@@ -64,3 +64,33 @@ a {
 .nav .nav-list .nav-item a:hover {
     color: #EEBF63;
 }
+
+/* -----------------header start----------------------- */
+
+.header {
+    padding: 50px 0px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-list .header-item {
+    margin: 10px 0px;
+}
+
+.header .header-list .header-item .header-item-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header .header-list .header-item .header-item-list .header-item-item {
+    margin-right: 20px;
+}
+
+.header .header-list .header-item .header-item-list .header-item-item img {
+    width: 30px;
+}
