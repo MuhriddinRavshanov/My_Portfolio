@@ -95,4 +95,27 @@ a {
 .bg-color {
     background-color: #141414;
 }
+  .draw::before, .draw::after {
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+  .draw::before {
+    top: 0;
+    left: 0;
+  }
+  .draw::after {
+    bottom: 0;
+    right: 0;
+  }
 
+  .draw:hover::before, .draw:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+
+  .draw:hover::after {
+    border-bottom-color: #60daaa;
+    transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+  }
+  
