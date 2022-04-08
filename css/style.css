@@ -28,7 +28,7 @@ a {
 
 .sidebar-top {
     height: 250px;
-    background-color: #000000;
+    background-color: #141414;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +92,7 @@ a {
     font-size: 20px;
     color: #05FDD8;
 }
-.bg-color {
+.sidebar-items {
     background-color: #141414;
 }
 
