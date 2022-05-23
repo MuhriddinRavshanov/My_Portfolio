@@ -56,7 +56,7 @@ a {
     font-size: 18px;
     letter-spacing: 1.6px;
     line-height: 20px;
-    color: gold;
+    color: #05FDD8;
     font-family: sans-serif;
 }
 
@@ -98,7 +98,11 @@ a {
 }
 
 .sidebar-item:hover a {
-    color: gold;
+    color: #05FDD8;
+}
+
+.sidebar-item:hover i {
+    color: #05FDD8;
 }
 
 .sidebar-link {
@@ -115,7 +119,7 @@ a {
 .sidebar-item i {
     margin-right: 10px;
     font-size: 20px;
-    color: #05FDD8;
+    color: rgb(160, 160, 160);
     transition: 0.5s;
 }
 
@@ -125,7 +129,7 @@ a {
 
 .sidebar-item div i:hover {
     transform: scale(1.5);
-    color: gold;
+    color: #05FDD8;
 } 
 
 .sidebar-items {
